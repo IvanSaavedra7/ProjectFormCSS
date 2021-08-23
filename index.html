@@ -1,28 +1,56 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link link rel="stylesheet" type="text/css"  href="./css/style.css" >
-    <title>Document</title>
+    <link link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Login Form</title>
 </head>
+
 <body>
-    <div class="allform">
-        <h1>HELLO TRAVELER</h1>
-        <form>
-            <label id="username">Username:</label>
-            <input id="username" type="text" />
-            <label id="password">Password:</label>
-            <input id="password" type="text" />
-            <button class="confimed">Entrar</button>
-            <a href="" class="toForget">Esqueceu A senha ?</a>
+    <main class="container">
+        <h2>Login</h2>
+
+        <form action="">
+            <div class="input-field">
+                <input type="text" name="username" id="username" placeholder="Coloca o nominho...">
+                <div class="underline"></div>
+            </div>
+
+            <div class="input-field">
+                <input type="text" name="username" id="username" placeholder="Agora senha">
+                <div class="underline"></div>
+            </div>
+
+            <input type="button" value="continue">
         </form>
-        <hr>
-        <button class="google"><img src="./assets/googleLogo.png" alt=""> Casdastre-se com o Google</button>
-    </div>  
+
+        <div class="footer">
+            <span> Entre com suas redes sociais</span>
+
+            <div class="social-fields">
+                <div class="social-fiel Facebook">
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                        Entre com o Facebook
+                    </a>
+                </div>
+
+                <div class="social-fiel Facebook">
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                        Entre com o Twitter
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </main>
 </body>
+
 </html>
